@@ -36,6 +36,9 @@ public class Main {
         fi.read(data);
         address.setImage(data);
 
+
+
+
         try {
             Session session = sessionFactory.openSession();
             Transaction tx = session.beginTransaction();
