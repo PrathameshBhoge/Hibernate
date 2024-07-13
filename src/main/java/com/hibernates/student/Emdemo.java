@@ -1,4 +1,4 @@
-package com.hibernates;
+package com.hibernates.student;
 
 import com.hibernates.student.Certificate;
 import com.hibernates.student.Student;
