@@ -13,6 +13,8 @@ public class Student {
     private String name;
     private String city;
 
+    private Certificate certificate;
+
     public Certificate getCertificate() {
         return certificate;
     }
@@ -21,7 +23,7 @@ public class Student {
         this.certificate = certificate;
     }
 
-    private Certificate certificate;
+
 
     public Student(int id, String name, String city) {
         super();
