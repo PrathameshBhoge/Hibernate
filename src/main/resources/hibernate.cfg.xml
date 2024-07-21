@@ -30,8 +30,13 @@
 
         <!-- Names the annotated entity class -->
         <mapping class="com.hibernates.DBconn"/>
-        <mapping class="com.hibernates.student.Student"/>
-        <mapping class="com.hibernates.student.Address"/>
-
+<!--        <mapping class="com.hibernates.student.Student"/>-->
+<!--        <mapping class="com.hibernates.student.Address"/>-->
+<!--        <mapping class="com.hibernates.mapping.onetoone.Question"/>-->
+<!--        <mapping class="com.hibernates.mapping.onetoone.Answer"/>-->
+<!--        <mapping class="com.hibernates.mapping.onetomany_Manytoone.Answers"/>-->
+<!--        <mapping class="com.hibernates.mapping.onetomany_Manytoone.Questions"/>-->
+        <mapping class="com.hibernates.mapping.manytomany.Project"/>
+        <mapping class="com.hibernates.mapping.manytomany.Employee"/>
     </session-factory>
 </hibernate-configuration>
