@@ -11,23 +11,17 @@ public class Address {
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     @Column(name = "addressId")
     private int addressId;
-
     @Column(length = 50,name = "Street")
     private String street;
-
     @Column(length = 100,name = "City")
     private String city;
-
     @Column(name = "is_open")
     private boolean isOpen;
-
     @Transient
     private double x;
-
     @Column(name = "added_date")
     @Temporal(TemporalType.DATE)
     private Date addedDate;
-
     @Lob
     private byte[] image;
 

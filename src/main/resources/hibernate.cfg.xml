@@ -10,13 +10,6 @@
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">Mr.cool@123</property>
 
-        <!-- JDBC connection pool settings -->
-        <!-- property name="hibernate.c3p0.min_size">5</property>
-        <property name="hibernate.c3p0.max_size">20</property>
-        <property name="hibernate.c3p0.timeout">300</property>
-        <property name="hibernate.c3p0.max_statements">50</property>
-        <property name="hibernate.c3p0.idle_test_period">3000</property -->
-
         <!-- SQL dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
@@ -27,10 +20,10 @@
         <property name="hibernate.hbm2ddl.auto">create</property>
 
         <property name="hibernate.current_session_context_class">thread</property>
-
+        <property name="hibernate.format_sql">true</property>
         <!-- Names the annotated entity class -->
         <mapping class="com.hibernates.DBconn"/>
-<!--        <mapping class="com.hibernates.student.Student"/>-->
+        <mapping class="com.hibernates.student.Student"/>
 <!--        <mapping class="com.hibernates.student.Address"/>-->
 <!--        <mapping class="com.hibernates.mapping.onetoone.Question"/>-->
 <!--        <mapping class="com.hibernates.mapping.onetoone.Answer"/>-->
